@@ -1,0 +1,89 @@
+========== Test Case #1 ==========
+ID: | TC-001 | 
+Name: | Top 10 Destinations List Test Case | 
+Owner:  | Megan Brackat | 
+Date: | 2026-11-23 00:00:00 | 
+Work Product:  | User Story #1 - View Top 10 Popular Trips | 
+Priority:  | High | 
+Pre-Conditions | User is on the main SNHU Travel website homepage | 
+Test Steps | Inputs | Expected Results
+ | 1. Click the link or button titled "Top 10 Destinations" or "Popular Trips". | Browser navigates to a page titled "Top 10 Destinations".
+ | 2. Scroll through the page to view all listed destinations. | Exactly 10 destination listings are displayed on the page.
+ | 3. Verify the destinations are ordered from #1 (most popular) to #10. | The list starts with the #1 most popular destination and ends with #10.
+ | 4. For each listing, verify required components are present. | Each listing includes: destination name, location, short description (1-2 sentences), image, and a link/button to view/book the top travel package.
+ | 5. Verify the list includes a mix of vacation types based on overall popularity. | Destinations span multiple vacation categories (e.g., beach, city, adventure) ranked by popularity metrics.
+
+========== Test Case #2 ==========
+ID: | TC-002 | 
+Name: | Trip Search and Filter Results Test Case | 
+Owner:  | Megan Brackat | 
+Date: | 2026-11-23 00:00:00 | 
+Work Product:  | User Story #2 - Search and Filter Available Trips | 
+Priority:  | High | 
+Pre-Conditions | User is on the SNHU Travel website and can access the trip search or browse page | 
+Test Steps | Inputs | Expected Results
+ | 1. Navigate to the trip search or listings page. | A results table or list of trips is displayed with column headers.
+ | 2. Verify column headers include Trip Name, Location, Price, Description, and User Rating. | All specified columns are present and labeled clearly.
+ | 3. Enter a price range (e.g., $500 - $2000) in the filter fields and apply the filter. | Results update to show only trips within the specified price range.
+ | 4. Click the User Rating column header to sort descending. | Trips reorder from highest to lowest user rating.
+ | 5. Check a trip description length and content. | Descriptions are concise (1-2 lines overview) or expandable to more details, and include key package info.
+
+========== Test Case #3 ==========
+ID: | TC-003 | 
+Name: | Mobile App Core Features Test Case | 
+Owner:  | Megan Brackat | 
+Date: | 2026-11-23 00:00:00 | 
+Work Product:  | User Story #3 - Access Travel Features via Mobile App | 
+Priority:  | Medium | 
+Pre-Conditions | User has the SNHU Travel mobile app installed and is logged in (or on the app home screen) | 
+Test Steps | Inputs | Expected Results
+ | 1. Open the SNHU Travel mobile app. | App launches successfully to the home or dashboard screen.
+ | 2. Navigate to the Top Destinations section. | Top destinations are viewable (initially assumed as a scrollable list).
+ | 3. Perform a search or apply a price filter within the app. | Search/filter functionality works and returns relevant results.
+ | 4. View a trip detail and attempt to start a booking. | Trip details display correctly and booking flow is accessible.
+ | 5. Verify core website features are available without major limitations. | Key functions (browse top trips, filter, view details) are present and usable on mobile.
+
+========== Revised Test Case #1 ==========
+ID: | TC-001-R | 
+Name: | Top Destinations Slideshow Test Case | 
+Owner:  | Megan Brackat | 
+Date: | 2026-11-23 00:00:00 | 
+Work Product:  | User Story #1 - View Top Destinations (Revised Slideshow Format) | 
+Priority:  | High | 
+Pre-Conditions | User is on the main SNHU Travel website homepage | 
+Test Steps | Inputs | Expected Results
+ | 1. Click the link titled "Top Destinations" or "Top 10 Trips". | The Top Destinations slideshow opens, displaying the first (most popular) destination with a large image.
+ | 2. Observe the current slide content. | Slide shows: large destination picture on top, destination name, short description below, and a link to the top travel package deal.
+ | 3. Click the "Next" button or arrow to advance through slides. | Each subsequent slide displays the next destination in order from #1 to #10; total of 10 slides available.
+ | 4. Click "Previous" to go backward and verify order. | Slideshow navigates correctly in reverse order and maintains ranking from most to least popular.
+ | 5. Verify all slides include required components and represent popular packages across types. | Every slide has image, name, description, and package link; destinations are ranked by popularity across vacation types.
+
+========== Revised Test Case #2 ==========
+ID: | TC-002-R | 
+Name: | Trip Search Filter and Sort Test Case (Revised) | 
+Owner:  | Megan Brackat | 
+Date: | 2026-11-23 00:00:00 | 
+Work Product:  | User Story #2 - Search and Filter Available Trips (Revised) | 
+Priority:  | High | 
+Pre-Conditions | User is on the SNHU Travel trip search or results page | 
+Test Steps | Inputs | Expected Results
+ | 1. Navigate to the trip listings/search results page. | A table displays with columns: Trip Name, Location, Price, Description, User Rating.
+ | 2. Confirm descriptions are one-line overviews with option for more details. | Each description is a concise one-line summary; clicking expands or links to fuller details.
+ | 3. Specify a price range using min/max inputs and apply filter. | Only trips within the entered price range appear in the results.
+ | 4. Sort the table by User Rating (highest first). | Results reorder correctly by user rating descending; other columns remain intact.
+ | 5. Select a trip and verify package link or details. | User can access the associated top travel package or full description without errors.
+
+========== Revised Test Case #3 ==========
+ID: | TC-003-R | 
+Name: | Mobile App Limited Features and Slideshow Test Case | 
+Owner:  | Megan Brackat | 
+Date: | 2026-11-23 00:00:00 | 
+Work Product:  | User Story #3 - Mobile App (Revised - Limited Core Features) | 
+Priority:  | Medium | 
+Pre-Conditions | User has the SNHU Travel mobile app installed and is on the home screen | 
+Test Steps | Inputs | Expected Results
+ | 1. Open the mobile app and navigate to Top Destinations. | App opens a mobile-friendly slideshow or card view of top destinations (aligned with web wireframe).
+ | 2. Swipe or tap next/previous through top destinations. | User can cycle through popular destinations one at a time with image and short description.
+ | 3. Apply a basic price filter if available. | Core filter functionality is present (or gracefully limited) and returns appropriate results.
+ | 4. View trip details and confirm booking entry point exists. | Details are accessible; full advanced features (e.g., complex multi-filter) may be limited to web.
+ | 5. Verify the app does not require every desktop feature but covers essential browse and view actions. | Essential user stories (view top trips, basic search/filter) function; advanced options redirect or are noted as web-only.
